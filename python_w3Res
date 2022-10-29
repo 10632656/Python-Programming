@@ -1,0 +1,42 @@
+#We are making n stone piles! The first pile has n stones. 
+# If n is even, then all piles have an even number of stones.
+# If n is odd, all piles have an odd number of stones.
+# Each pile must more stones than the previous pile but as few as possible. 
+# Write a Python program to find the number of stones in each pile.
+
+
+#pile1=8,10,12,14,16...n
+
+n=int(input("enter number of pile"))
+Piles=[]
+#print(Piles)
+i=n
+for pile1 in range(n):
+    #print("test")
+    Piles.append(i)   
+    i=i+2
+print(Piles)
+'''pile1
+pile2
+    
+n1,n2=0,1
+for 
+if n1%2==0:
+    print("n1 are even stones")
+elif n2!=0:
+    print("stones are odd") '''
+      
+
+
+#5. Write a Python program to check the nth-1 string is a proper substring of nth string in a given list of strings.
+# Go to the editor
+#Input:
+#['a', 'abb', 'sfs', 'oo', 'de', 'sfde']
+# 0th, 1st
+string1="de"
+string2="sfde"
+L1=len(string1)
+L2=len(string2)
+for i in range(0,L2-L1+1):
+    if string1==string2[i:i+L1]:
+        print("string1 is a substring of string2")

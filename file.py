@@ -1,0 +1,5 @@
+file = open('cities','w')
+file.write('Dublin\n')
+file.write('Gurgaon\n')
+file = open ('cities')
+file.read(1)

@@ -1,0 +1,21 @@
+Variable was used as a function with square bracets
+TypeError: 'str' object is not callable
+Name Error when 
+NameError: name 'result1' is not defined. Did you mean: 'result'?
+Type Error 
+Indentation Error
+IndentationError: unexpected indent
+Index Error
+IndexError: string index out of range
+ValueError: invalid literal for int() with base 10: 'a'
+TypeError: 'str' object is not callable
+TypeError: string indices must be integers
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ValueError: '3' is not in list
+# what is the value error ? 
+When the value is not present in the list
+searching for a index which is not present, index is out of bound
+TypeError: list.append() takes exactly one argument (2 given)
+ValueError: list.remove(x): x not in list
+TypeError: list.remove() takes exactly one argument (0 given)
+

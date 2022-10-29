@@ -1,0 +1,10 @@
+for i in range (0,50): 0:49 0:-49
+in range we have to specify end
+slicing  - if end is not given - it will go to the end itself
+it will start auto from 0 - if not specified
+3,-2,1,0,-1
+-1 = always the last alphabet to end of string
+2*3 = repeat 3 times
+string multiplication does not include spaces
+
+
